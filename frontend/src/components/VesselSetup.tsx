@@ -23,7 +23,7 @@ export default function VesselSetup({ onSave }: Props) {
   const inputStyle: React.CSSProperties = { width: '100%', padding: '0.5rem', marginBottom: '1rem', background: '#222', color: '#fff', border: '1px solid #333', borderRadius: '4px', boxSizing: 'border-box' }
 
   return (
-    <form onSubmit={handleSubmit} style={{ background: '#111', color: '#fff', padding: '2rem', borderRadius: '8px', maxWidth: '480px' }}>
+    <form onSubmit={handleSubmit} style={{ color: '#fff' }}>
       <h2 style={{ color: '#ef4444', marginBottom: '1.5rem' }}>Register Your Vessel</h2>
 
       <label htmlFor="vessel-name" style={{ display: 'block', marginBottom: '0.5rem' }}>Vessel Name</label>

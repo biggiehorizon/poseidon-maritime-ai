@@ -1,5 +1,8 @@
 import os
 import httpx
+from dotenv import load_dotenv
+
+load_dotenv()
 
 GRADIENT_ENDPOINT = os.getenv("GRADIENT_ENDPOINT_URL", "https://inference.do-ai.run/v1/chat/completions")
 GRADIENT_MODEL = os.getenv("GRADIENT_MODEL", "llama3-8b-instruct")

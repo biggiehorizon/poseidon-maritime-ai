@@ -64,7 +64,7 @@ export default function RouteMap({ forecast, originPin, destPin, clickMode, onMa
     <MapContainer
       center={[37.5, -122.5]}
       zoom={7}
-      style={{ position: 'absolute', inset: 0, zIndex: 0, cursor: mapCursor }}
+      style={{ width: '100%', height: '100%', cursor: mapCursor }}
       zoomControl={false}
     >
       {/* Esri Ocean basemap — high-contrast blue water with depth shading */}
